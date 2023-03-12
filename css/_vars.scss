@@ -1,0 +1,42 @@
+//Fonts
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Roboto:wght@400;700&display=swap');
+$roboto: 'Roboto', sans-serif;
+$logo: 'Arapey', serif;
+
+//Colors
+$black: black;
+$yellow: black;
+
+//Boxes
+@mixin trueBox{
+    background: linear-gradient(180deg, rgba(97, 253, 94, 0.165) 0%, rgba(12, 248, 7, 0.5) 100%);
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+@mixin currentBox{
+    background: linear-gradient(180deg, rgba(187, 186, 186, 0.22) 0%, rgba(39, 39, 39, 0.86) 100%);
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+@mixin falseBox{
+    background: linear-gradient(180deg, #D9D9D9 0%, #FE0808 100%);
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+//Options
+@mixin option{
+    background-color: none;
+    border: 1px solid #000000;
+    border-radius: 30px;
+}
+@mixin trueOption{
+    background: rgba(10, 228, 6, 0.5);
+    border: 1px solid #000000;
+    border-radius: 30px;
+}
+@mixin falseOption{
+    background: rgba(233, 0, 0, 0.5);
+    border: 1px solid #000000;
+    border-radius: 30px;
+}
