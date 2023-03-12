@@ -49,6 +49,9 @@ header{
         flex-direction: column;
         align-items: center;
         gap: 50px;
+        .start{
+            cursor: pointer;
+        }
         button{
             width: 250px;
             height: 50px;
