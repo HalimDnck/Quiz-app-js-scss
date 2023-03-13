@@ -62,16 +62,106 @@ section {
   display: flex;
 }
 section .left {
-  width: 100%;
-  height: 100%;
+  width: 20%;
+  height: 80vh;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 section .left h2 {
-  margin: 0;
   font-size: 128px;
   transform: rotate(-90deg);
   font-weight: lighter;
   text-shadow: 4px 8px 1px rgba(0, 0, 0, 0.1960784314);
+  margin-left: -180px;
+}
+section .mid {
+  width: 100%;
+  height: 100%;
+  justify-self: center;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section .mid .question-container {
+  margin: 0 20%;
+  text-align: center;
+  font-size: 28px;
+}
+section .mid .answer-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  row-gap: 30px;
+  padding-top: 50px;
+}
+section .mid .answer-container button {
+  width: 200px;
+  height: 40px;
+  font-size: 24px;
+  flex: 1 1 calc(50% - 50px);
+  background-color: none;
+  border: 1px solid #000000;
+  border-radius: 30px;
+  cursor: pointer;
+  background: linear-gradient(to right, black 50%, rgba(255, 255, 255, 0) 50%);
+  background-size: 200% 100%;
+  background-position: right;
+  transition: all 0.9s ease-out;
+}
+section .mid .answer-container button:hover {
+  background-position: left bottom;
+  color: white;
+}
+section .mid .wrong-container {
+  display: none;
+  border: 1px solid black;
+  width: 80%;
+  height: 25%;
+  margin-top: 50px;
+  text-align: center;
+  padding: 5% 0;
+}
+section .mid .wrong-container button {
+  width: 150px;
+  height: 30px;
+  background-color: none;
+  border: 1px solid #000000;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 20px;
+  background: linear-gradient(to right, black 50%, rgba(255, 255, 255, 0) 50%);
+  background-size: 200% 100%;
+  background-position: right;
+  transition: all 0.9s ease-out;
+  font-size: 18px;
+}
+section .mid .wrong-container button:hover {
+  background-position: left bottom;
+  color: white;
+}
+section .right {
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 20%;
+  height: 100%;
+}
+section .right div {
+  border: 1px solid black;
+  width: 150px;
+  height: 180px;
+  transform: rotate(-90deg);
+  font-size: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+section .right .box1 {
+  background: linear-gradient(180deg, rgba(187, 186, 186, 0.22) 0%, rgba(39, 39, 39, 0.86) 100%);
 }/*# sourceMappingURL=game.css.map */
