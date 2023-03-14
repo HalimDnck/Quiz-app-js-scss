@@ -115,6 +115,16 @@ section .mid .answer-container button:hover {
   background-position: left bottom;
   color: white;
 }
+section .mid .answer-container .true {
+  background: rgba(10, 228, 6, 0.5);
+  border: 1px solid #000000;
+  border-radius: 30px;
+}
+section .mid .answer-container .false {
+  background: rgba(233, 0, 0, 0.5);
+  border: 1px solid #000000;
+  border-radius: 30px;
+}
 section .mid .wrong-container {
   display: none;
   border: 1px solid black;
