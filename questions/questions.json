@@ -1,0 +1,605 @@
+{
+    "response_code": 0,
+    "questions": [
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What event marked the start of World War II?",
+        "correct_answer": "Invasion of Poland (1939)",
+        "incorrect_answers": [
+          "Invasion of Russia (1942)",
+          "Battle of Britain (1940)",
+          "Invasion of Normandy (1944)"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What disease crippled President Franklin D. Roosevelt and led him to help the nation find a cure? ",
+        "correct_answer": "Polio",
+        "incorrect_answers": [
+          "Cancer",
+          "Meningitis",
+          "HIV"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "King Henry VIII was the second monarch of which European royal house?",
+        "correct_answer": "Tudor",
+        "incorrect_answers": [
+          "York",
+          "Stuart",
+          "Lancaster"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of these countries was sea charted in 1500 by the Portuguese maritime explorations?",
+        "correct_answer": "Brazil",
+        "incorrect_answers": [
+          "India",
+          "Mozambique",
+          "Madagascar"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "During the Mongolian invasions of Japan, what were the Mongol boats mostly stopped by?",
+        "correct_answer": "Typhoons",
+        "incorrect_answers": [
+          "Tornados",
+          "Economic depression",
+          "Samurai"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In the year 1900, what were the most popular first names given to boy and girl babies born in the United States?",
+        "correct_answer": "John and Mary",
+        "incorrect_answers": [
+          "Joseph and Catherine",
+          "William and Elizabeth",
+          "George and Anne"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which German field marshal was known as the `Desert Fox`?",
+        "correct_answer": "Erwin Rommel",
+        "incorrect_answers": [
+          "Ernst Busch",
+          "Wolfram Freiherr von Richthofen",
+          "Wilhelm List"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which king was killed at the Battle of Bosworth Field in 1485? ",
+        "correct_answer": "Richard III",
+        "incorrect_answers": [
+          "Edward V",
+          "Henry VII",
+          "James I"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What historical event was Tchaikovsky&#039;s 1812 Overture referencing?",
+        "correct_answer": "The Napoleonic Wars",
+        "incorrect_answers": [
+          "The American War of 1812",
+          "The Russian Revolution",
+          "The Charge of the Light Brigade (Crimean War)"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Spain was formed in 1469 with the marriage of Isabella I of Castile and Ferdinand II of what other Iberian kingdom?",
+        "correct_answer": "Aragon",
+        "incorrect_answers": [
+          "Galicia",
+          "Le&oacute;n",
+          "Navarre"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In relation to the British Occupation in Ireland, what does the IRA stand for.",
+        "correct_answer": "Irish Republican Army",
+        "incorrect_answers": [
+          "Irish Rebel Alliance",
+          "Irish Reformation Army",
+          "Irish-Royal Alliance"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of the following ancient Near Eastern peoples still exists as a modern ethnic group?",
+        "correct_answer": "Assyrians",
+        "incorrect_answers": [
+          "Babylonians",
+          "Hittites",
+          "Elamites"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "On which day did the attempted coup d&#039;etat of 1991 in the Soviet Union begin?",
+        "correct_answer": "August 19",
+        "incorrect_answers": [
+          "August 21",
+          "December 26",
+          "December 24"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of these countries was NOT a part of the Soviet Union?",
+        "correct_answer": "Afghanistan",
+        "incorrect_answers": [
+          "Turkmenistan",
+          "Kazakhstan",
+          "Uzbekistan"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the name of the US Navy spy ship which was attacked and captured by North Korean forces in 1968?",
+        "correct_answer": "USS Pueblo",
+        "incorrect_answers": [
+          "USS North Carolina",
+          "USS Constitution",
+          "USS Indianapolis"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What year did the Battle of Agincourt take place?",
+        "correct_answer": "1415",
+        "incorrect_answers": [
+          "1463",
+          "1401",
+          "1422"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "When did the Battle of the Somme begin?",
+        "correct_answer": "July 1st, 1916",
+        "incorrect_answers": [
+          "August 1st, 1916",
+          "July 2nd, 1916",
+          "June 30th, 1916"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "When was Adolf Hitler appointed as Chancellor of Germany?",
+        "correct_answer": "January 30, 1933",
+        "incorrect_answers": [
+          "September 1, 1939",
+          "February 27, 1933",
+          "October 6, 1939"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In what year was the video game company Electronic Arts founded?",
+        "correct_answer": "1982",
+        "incorrect_answers": [
+          "1999",
+          "1981",
+          "2005"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Who was the first president of the United States?",
+        "correct_answer": "George Washington",
+        "incorrect_answers": [
+          "James Madison",
+          "Thomas Jefferson",
+          "James K. Polk"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Where and when was the first cardboard box made for industrial use?",
+        "correct_answer": "England, 1817",
+        "incorrect_answers": [
+          "United States, 1817",
+          "England, 1917",
+          "United States, 1917"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who tutored Alexander the Great?",
+        "correct_answer": "Aristotle",
+        "incorrect_answers": [
+          "Socrates",
+          "Plato",
+          "King Philip"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What year did the Boxing Day earthquake &amp; tsunami occur in the Indian Ocean?",
+        "correct_answer": "2004",
+        "incorrect_answers": [
+          "2006",
+          "2008",
+          "2002"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Against which country did the Dutch Republic fight the Eighty Years&#039; War?",
+        "correct_answer": "Spain",
+        "incorrect_answers": [
+          "France",
+          "England",
+          "Portugal"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which WWII tank ace is credited with having destroyed the most tanks?",
+        "correct_answer": "Kurt Knispel",
+        "incorrect_answers": [
+          "Michael Wittmann",
+          "Walter Kniep",
+          "Otto Carius"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the bloodiest event in United States history, in terms of casualties?",
+        "correct_answer": "Battle of Antietam",
+        "incorrect_answers": [
+          "Pearl Harbor",
+          "September 11th",
+          "D-Day"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which building was set aflame on August 24th, 1812?",
+        "correct_answer": "The White House",
+        "incorrect_answers": [
+          "Parliament Building",
+          "Grand National Assembly Building",
+          "Palace of the Nation"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "When did Norway get its constitution?",
+        "correct_answer": "1814",
+        "incorrect_answers": [
+          "1932",
+          "1905",
+          "1854"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of the following snipers has the highest amount of confirmed kills?",
+        "correct_answer": "Simo H&auml;yh&auml;",
+        "incorrect_answers": [
+          "Chris Kyle",
+          "Vasily Zaytsev",
+          "Craig Harrison"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What was the bloodiest single-day battle during the American Civil War?",
+        "correct_answer": "The Battle of Antietam",
+        "incorrect_answers": [
+          "The Siege of Vicksburg",
+          "The Battle of Gettysburg",
+          "The Battles of Chancellorsville"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Who was the President of the United States during the signing of the Gadsden Purchase?",
+        "correct_answer": "Franklin Pierce",
+        "incorrect_answers": [
+          "Andrew Johnson",
+          "Abraham Lincoln",
+          "James Polk"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which historical conflict killed the most people?",
+        "correct_answer": "World War II",
+        "incorrect_answers": [
+          "Taiping Rebellion",
+          "Three Kingdoms War",
+          "Mongol conquests"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who was the first president born in the independent United States?",
+        "correct_answer": "Martin Van Buren",
+        "incorrect_answers": [
+          "John Adams",
+          "George Washington",
+          "James Monroe "
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which of the following countries was not an axis power during World War II?",
+        "correct_answer": " Soviet Union",
+        "incorrect_answers": [
+          "Italy",
+          "Germany",
+          "Japan"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who was the leader of the Communist Party of Yugoslavia ?",
+        "correct_answer": "Josip Broz Tito",
+        "incorrect_answers": [
+          "Karadjordje Petrovic",
+          "Milos Obilic",
+          "Aleskandar Petrovic"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What year did Australia become a federation?",
+        "correct_answer": "1901",
+        "incorrect_answers": [
+          "1910",
+          "1899",
+          "1911"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In which years did the Battle of Gallipoli take place?",
+        "correct_answer": "1915 - 1916",
+        "incorrect_answers": [
+          "1914 - 1918",
+          "1914 - 1915",
+          "1915 - 1918"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which country gifted the Statue of Liberty to the United States of America?",
+        "correct_answer": "France",
+        "incorrect_answers": [
+          "Spain",
+          "England",
+          "Germany"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which modern country is known as &quot;The Graveyard of Empires&quot;?",
+        "correct_answer": "Afghanistan",
+        "incorrect_answers": [
+          "China",
+          "Iraq",
+          "Russia"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which country was Josef Stalin born in?",
+        "correct_answer": "Georgia",
+        "incorrect_answers": [
+          "Russia",
+          "Germany",
+          "Poland"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "When was the Grand Patriotic War in the USSR concluded?",
+        "correct_answer": "May 9th, 1945",
+        "incorrect_answers": [
+          "September 2nd, 1945",
+          "August 9th, 1945",
+          "December 11th, 1945"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Who was the only US President to be elected four times?",
+        "correct_answer": "Franklin Roosevelt",
+        "incorrect_answers": [
+          "Theodore Roosevelt",
+          "George Washington",
+          "Abraham Lincoln"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In 1845, a series of wars named after which indigenous people began in New Zealand?",
+        "correct_answer": "Māori",
+        "incorrect_answers": [
+          "Papuans",
+          "Aborigines",
+          "Polynesians"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which U.S. President was in office when the Gulf War began?",
+        "correct_answer": "George H. W. Bush",
+        "incorrect_answers": [
+          "Richard Nixon",
+          "George W. Bush ",
+          "Ronald Regan"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "During World War I, which nation&#039;s monarchs were blood related?",
+        "correct_answer": "England, Germany, Russia",
+        "incorrect_answers": [
+          "France, Russia, Germany",
+          "Serbia, Russia, Croatia",
+          "Germany, Spain, Austria"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "During which American Civil War campaign did Union troops dig a tunnel beneath Confederate troops to detonate explosives underneath them?",
+        "correct_answer": "Siege of Petersburg",
+        "incorrect_answers": [
+          "Siege of Vicksburg",
+          "Antietam Campaign",
+          "Gettysburg Campagin"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "After his loss at the Battle of Waterloo, Napoleon Bonaparte was exiled to which island?",
+        "correct_answer": "St. Helena",
+        "incorrect_answers": [
+          "Elba",
+          "Corsica",
+          "Canary"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which of these founding fathers of the United States of America later became president?",
+        "correct_answer": "James Monroe",
+        "incorrect_answers": [
+          "Alexander Hamilton",
+          "Samuel Adams",
+          "Roger Sherman"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which of these positions did the astronomer and physicist Isaac Newton not hold?",
+        "correct_answer": "Surveyor to the City of London",
+        "incorrect_answers": [
+          "Professor of Mathematics",
+          "Warden of the Royal Mint",
+          "Member of Parliament"
+        ]
+      },
+      {
+        "category": "History",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What country joined the EU in 2013?",
+        "correct_answer": "Croatia",
+        "incorrect_answers": [
+          "Bulgaria",
+          "Slovenia",
+          "Turkey"
+        ]
+      }
+    ]
+  }
