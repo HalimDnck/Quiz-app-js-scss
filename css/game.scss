@@ -77,6 +77,20 @@ section{
             margin-left: -180px;
         }
     }
+
+    .start-button{
+        width: 200px;
+        height: 50px;
+        align-self: center;
+        margin-left: 45%;
+        position:absolute;
+        @include option;
+        cursor: pointer;
+        background-color: black;
+        color: black;
+        font-size: 22px;
+        @include btnAnim;
+    }
     .mid{
         width: 100%;
         height: 100%;
@@ -110,7 +124,7 @@ section{
                 @include btnAnim;
             }
             .true{
-                @include trueOption;
+                
             }
             .false{
                 @include falseOption;
