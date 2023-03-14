@@ -6,6 +6,7 @@ const container = document.querySelector(".answer-container");
 const button = document.querySelector(".answer");
 const startButton = document.querySelector('.start-button');
 const midContainer = document.querySelector('.mid');
+const wrongContainer = document.querySelector('.wrong-container');
 
 let startIndex;
 let questionList = [];
@@ -31,9 +32,23 @@ fetch("questions/questions.json").then(
                 if(check.classList.contains("true")){
                     
                     check.style.background= "green";
+                    setTimeout(function() { nextQuestion(); }, 3000);
+                    
                 }
                 else{
-                    console.log("falseee")
+                    wrongContainer.style.display = "block";
+                    check.style.background= "red";
+                    for(let a=0; a<4; a++){
+                        if(answerButton[a].classList.contains("true")){
+                            answerButton[a].style.background= "green";
+                            answerButton[a].setAttribute('disabled','disabled');
+                        }
+                        else{
+                            answerButton[a].setAttribute('disabled','disabled');
+                        }
+                    }
+                    
+                    
                 }
             })
         })
@@ -42,6 +57,8 @@ fetch("questions/questions.json").then(
 
     
     function nextQuestion(){
+        
+
         container.style.display = "flex";
         startIndex = Math.floor(Math.random() * 20);
     
@@ -55,6 +72,7 @@ fetch("questions/questions.json").then(
 
         for(let a=0; a<4; a++){
             answerButton[a].classList.remove("true");
+            answerButton[a].style.background = "black";
         }
 
         for(let i=0; i < 3; i++){

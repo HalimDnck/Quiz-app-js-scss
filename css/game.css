@@ -124,6 +124,7 @@ section .mid .answer-container button {
   height: 40px;
   font-size: 24px;
   flex: 1 1 calc(50% - 50px);
+  color: white;
   background-color: none;
   border: 1px solid #000000;
   border-radius: 30px;
