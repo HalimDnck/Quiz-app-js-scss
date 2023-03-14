@@ -3,6 +3,9 @@ const questionText = document.querySelector(".question");
 let answerButton = [];
 answerButton = document.querySelectorAll('.answer-container > button');
 const container = document.querySelector(".answer-container");
+const button = document.querySelector(".answer");
+const startButton = document.querySelector('.start-button');
+const midContainer = document.querySelector('.mid');
 
 let startIndex;
 let questionList = [];
@@ -19,7 +22,25 @@ fetch("questions/questions.json").then(
 
 
 
-    nextQuestion();
+
+    checkAnswer();
+    function checkAnswer(){
+    
+        answerButton.forEach(function(check){
+            check.addEventListener("click", function(){
+                if(check.classList.contains("true")){
+                    
+                    check.style.background= "green";
+                }
+                else{
+                    console.log("falseee")
+                }
+            })
+        })
+        
+    }
+
+    
     function nextQuestion(){
         container.style.display = "flex";
         startIndex = Math.floor(Math.random() * 20);
@@ -29,6 +50,12 @@ fetch("questions/questions.json").then(
         questionText.innerHTML = firstQuestion.question;
         
         optionRandom = Math.floor(Math.random() * 4);
+        console.log(optionRandom)
+        
+
+        for(let a=0; a<4; a++){
+            answerButton[a].classList.remove("true");
+        }
 
         for(let i=0; i < 3; i++){
             let listofElements = [0,1,2,3,0,1,2,3,0,1,2,3];
@@ -43,6 +70,16 @@ fetch("questions/questions.json").then(
             answerButton[optionRandom-1].innerText = firstQuestion.correct_answer;
             answerButton[optionRandom-1].classList.add("true");
         }
+    }
+
+
+    startButton.addEventListener('click', function(){
+        startGame();
+    })
+    function startGame(){
+        startButton.style.display= "none";
+        nextQuestion();
+        midContainer.style.display= "flex";
     }
 
     
